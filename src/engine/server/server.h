@@ -13,6 +13,7 @@
 #include <engine/console.h>
 #include <engine/shared/mapchecker.h>
 #include <engine/shared/econ.h>
+#include <engine/shared/netban.h>
 //not sure why it worked without all of these. it is required for being able to include CServer in mod gamectl, for adding bans from there:S
 class CRegister;
 class CMapChecker;
