@@ -251,7 +251,7 @@ void IGameController::CycleMap()
 		if(g_Config.m_SvRoundSwap)
 			GameServer()->SwapTeams();
 		return;
-	
+	}
 	if (g_Config.m_SvExtend)
 	{
 		g_Config.m_SvExtend = 0;
