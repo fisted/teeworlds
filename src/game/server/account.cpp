@@ -325,7 +325,7 @@ bool CAccChatHandler::HandleChatMsg(class CPlayer *pPlayer, const char *pMsg)
 				if (pAcc->Head()->m_FailCount > 0)
 				{
 					char aTime[2][32];
-					str_timestamp_at(aTime[0], sizeof (aTime[0]), pAcc->Head()->m_FailDate[0]);
+					str_timestamp_at(aTime[0], sizeof (aTime[0]), pAcc->Head()->m_FailDate[0]); /* <-- CRASH --> */
 					if (pAcc->Head()->m_FailCount > 1)
 					{
 						str_timestamp_at(aTime[1], sizeof (aTime[1]), pAcc->Head()->m_FailDate[1]);
