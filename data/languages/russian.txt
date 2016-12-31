@@ -242,7 +242,7 @@ Hammer
 == Молот
 
 Has people playing
-== Не пустой сервер
+== Сервер непустой
 
 High Detail
 == Высокая детализация
@@ -380,7 +380,7 @@ Password
 == Пароль
 
 Password incorrect
-== Пароль
+== Пароль неверный
 
 Ping
 == Пинг
@@ -584,7 +584,7 @@ Team chat
 == Командный чат
 
 Teeworlds %s is out! Download it at www.teeworlds.com!
-== Вышла Teeworlds %s! Скачивайте на www.teeworlds.com!
+== Вышел Teeworlds %s! Скачивайте на www.teeworlds.com!
 
 Texture Compression
 == Сжатие текстур
